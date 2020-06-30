@@ -1,0 +1,237 @@
+.html,
+.body {
+    width: 75%;
+    height: 75%;
+    }
+.logo{
+    /* margin-left: 37%; */
+    /* margin-right: 47%; */
+    float: left;
+    width: 100%;
+    height: auto;
+}
+#logoimg{
+    width: 10%;
+    margin-left: 5px;
+    display: inline-table;
+}
+#navbar{
+width: 60%;
+height:auto;
+margin-left: 20%;
+margin-right: 30%;
+}
+#menuimg{
+    max-width: 24%;
+    max-height: 30%;
+    display:inline-table;   
+}
+.herodiv{
+width: 100%;
+height: auto;
+/* height: 30%; */
+/* margin-right: auto; */
+}
+#hero{
+width: 75%;
+height:75%;
+float: initial;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+/* #menuitems{
+    width: 100%;
+    height: auto;
+} */
+/* @media screen and (max-width: 500px) {
+    .menuitems {
+      width: 100%;
+    }
+  } */
+#mealItems0,
+#mealItems1,
+#mealItems2{
+    /* clear: right; */
+    display: inline-table;
+    font-size: 16pt;
+    /* margin: 0 auto; */
+    width: 30%;
+    height: auto;
+    padding-left: 3%;
+}
+#mealItems3,
+#mealItems4,
+#mealItems5{
+    /* clear: left; */
+    display: inline-table;
+    font-size: 16pt;
+    /* margin: 0 auto; */
+    width: 30%;
+    height: auto;
+    padding-left: 3%;
+}
+#Topone{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    float: left;
+    font-weight: bold;
+}
+#thumbsImg{
+    width: 25px;
+    height: auto;
+    padding-top: 4.5%;
+   
+}
+.loginfield{
+width:800px;
+height:auto;
+text-align: center;
+margin-left: 6%;
+vertical-align: auto;
+font-size: 11pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#socialmedia{
+width: 12%;
+height:auto;
+display: inline-table;
+margin-left: 9%;
+margin-right: 9%;
+align-items: center;
+justify-content: center;
+}
+#logOR{
+    width: 10%;
+    height:10%; 
+    font-size: x-large;
+}
+#password{
+width: 90%;
+height:15%;
+}
+#logemail,
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#logpassword,
+#sixth{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    #responBody{
+      width:100%;
+      font-size: 5pt;
+}
+    .loginfield{
+        width: 70%;
+        height: auto;
+        text-align: center;
+margin-left: 6%;
+vertical-align: auto;
+font-size: 11pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    }
+    #menuitems{
+        width: 100%;
+        height:auto;
+            }
+    #menuimg{
+        max-width: 20%;
+        max-height: 8%;
+        display:inline-block;
+    }
+    #label3, #loginbutton{
+        font-size: 7pt;
+    }
+
+}
+#email{
+    width: 90%;
+    height:15%;
+}
+#logindiv{
+padding-right: 70%;
+}
+#loginbutton{
+    background-color: aquamarine;
+    font-size: 14pt;
+}
+
+#title1{
+font-family: fantasy;
+font-weight: bold;
+font-size: 24pt;
+text-decoration: underline;
+padding-left: 11%;
+padding-top: 10%;
+/* width: 40%;
+height: auto; */
+}
+#title2{
+font-family: fantasy;
+font-weight: bold;
+font-size: 24pt;
+text-decoration: underline;
+padding-left: 35%;
+/* width: 40%;
+height: auto; */
+}
+#left{
+font-size: 18pt;
+width: 40%;
+height:auto;
+padding-left: 3%;
+float: left;
+}
+#summary{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: outline;
+}
+#thanks{
+    width: 80%;
+    height: auto;
+}
+#right{
+    width: 50%;
+    height:auto;
+    padding-left: 1%;
+    float: left;
+}
+#rightimg{
+    width: 80%;
+    display: right;
+    padding-left: 30%;
+}
+#menuitems{
+    clear: left;
+}
+
+#footer{
+    width: 100%;
+    height: 140px;
+    clear: both;
+    }
+#foot{
+float:left;
+padding-left: 15px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+#socialmediafoot{
+padding-top: 5%;
+width:29%;
+height:auto;
+vertical-align: bottom;
+}
+#socialmediafootdiv{
+    padding-left: 89%;
+}

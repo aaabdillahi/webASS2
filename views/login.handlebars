@@ -1,0 +1,61 @@
+ <div id = "responBody">
+<div style="background-color:azure;">
+<div style="background-image: url('images/headerbg.png'); background-size: cover;">
+<h2 class= logo><img src="images/logo.png" id= "logoimg"></h2>
+    <div id= navbar>
+            <a href= "/"><img src="images/home.png" id= "menuimg"></a>
+            <a href="/login"> <img src="images/login.png" id= "menuimg"></a>
+            <a href="/signup"> <img src="images/signup.png" id= "menuimg"></a>
+            <a href="/meals"> <img src="images/meals.png" id= "menuimg"></a>
+        </div>
+</div>
+</br>
+<body>
+<fieldset class= "loginfield">
+  <a href="https://www.facebook.com/"> <img src="images/facebook.png" id= "socialmedia"></a>
+  <a href="https://twitter.com/"> <img src="images/twitter.png" id= "socialmedia"></a>
+  <a href="https://www.instagram.com/"> <img src="images/instagram.png" id= "socialmedia"></a>
+            </br> </br>
+            <img src="images/logOR.png" id= "logOR"></a>
+            <legend>Log In Today, Please We Need The Business:</legend>
+            <form action="/login" method="POST">
+            
+            <label for="email" id="logemail">Email Address of Your Next Door Neighbour's First Born Child:</label></br>
+            <input type="text" id="email" name="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"/></br>
+            {{#each errorMessages}}
+              <div class="err1">{{this}}</div>
+            {{/each}}
+            </br>
+            <label for="password" id="logpassword">Your Netflix Password:</label>
+            </br>
+            <input type="password" id="password" name="password"></br>
+            {{#each errorMessages}}
+              <div class="err2">{{this}}</div>
+            {{/each}}
+            </br>
+            </br>
+            <div  id="logindiv">
+            <button id="loginbutton">Log In!</button></div>
+            </br>
+            </form>
+            </legend>
+            </fieldset>
+</br>
+<div style="background-image: url('images/footerbg.png');" id="footer"> 
+<footer >
+
+<p id="foot">SAIKOU SERVICE!</p>
+<p id="foot">About Us!</p>
+<p id="foot">Contact Us! [Please don't]</p>
+<div id= "socialmediafootdiv">
+  <a href="https://www.facebook.com/"> <img src="images/facebook.png" id= "socialmediafoot"></a>
+  <a href="https://twitter.com/"> <img src="images/twitter.png" id= "socialmediafoot"></a>
+  <a href="https://www.instagram.com/"> <img src="images/instagram.png" id= "socialmediafoot"></a>
+</div>
+</footer>
+</div>
+</body>
+
+</body> 
+</div>
+</div>
